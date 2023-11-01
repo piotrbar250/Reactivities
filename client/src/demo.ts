@@ -1,19 +1,19 @@
 export interface Duck{
     name: string,
     numLegs: number,
-    makeQuack: () => void
+    makeSound: (sound: string) => void
 }
 
 const duck1: Duck = {
     name: 'Huey',
     numLegs: 2,
-    makeQuack: () => console.log('quack')
+    makeSound: (sound: string) => console.log(sound)
 }
 
 const duck2: Duck = {
     name: 'Duey',
     numLegs: 2,
-    makeQuack: () => console.log('quack')
+    makeSound: (sound: string) => console.log(sound)
 }
 
 export const ducks = [duck1, duck2]
