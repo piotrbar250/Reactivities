@@ -1,0 +1,5 @@
+
+dotnet restore and npm install - after cloning repo
+
+dotnet ef migrations add MigrationName -s API -p Persistence
+dotnet ef database update -s API -p Persistence 
