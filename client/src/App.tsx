@@ -3,7 +3,6 @@ import DuckItem from './DuckItem'
 import { ducks } from './demo'
 
 function App() {
-
   return (
     <div>
       <h1>Reactivites</h1>
