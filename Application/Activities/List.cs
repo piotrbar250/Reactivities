@@ -11,7 +11,7 @@ namespace Application.Activities
 
         public class Handler : IRequestHandler<Query, List<Activity>>
         {
-            public DataContext context { get; }
+            private readonly DataContext context;
             public Handler(DataContext context)
             {
                 this.context = context;
